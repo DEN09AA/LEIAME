@@ -1,0 +1,35 @@
+loja-online-java/
+├── src/
+│   └── LojaApp.java
+├── .gitignore
+├── README.md
+└── LICENSE
+Aplicativo Java simples para gerenciamento de uma loja online com interface gráfica usando Swing e uma tabela de dados.
+
+- Cadastro de clientes com nome e e-mail
+- Exibição dos dados em uma tabela
+- Interface gráfica usando Swing
+- Adição dinâmica de dados na interface
+
+![screenshot](screenshot.png) <!-- opcional -->
+
+1. Compile:
+   ```bash
+   javac src/LojaApp.java
+java -cp src LojaApp
+
+---
+
+```gitignore
+*.class
+*.log
+*.tmp
+.DS_Store
+.idea/
+*.iml
+out/
+MIT License
+
+Copyright (c) 2025
+
+
